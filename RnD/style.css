@@ -1,0 +1,21 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("./assets/background.png");
+    background-size: cover;
+}
+
+.container {
+    background-color: cadetblue;
+    padding: 1.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.75rem;
+    color: aliceblue;
+}
