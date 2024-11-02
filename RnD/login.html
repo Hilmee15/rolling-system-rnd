@@ -24,10 +24,12 @@
         .slide {
             width: 100%; /* Full width for each image */
             flex-shrink: 0;
+            background-size: contain;
+            object-fit: contain;
         }
         .slide img {
-            height: 100%;
-            object-fit: contain;
+            /* object-fit: contain; */
+            background-position: center;
 
         }
         .login-form {
@@ -69,7 +71,7 @@
     <div class="slides">
         <div class="slide"><img src="./assets/poster1.jpg" alt="Image 1" ></div>
         <div class="slide"><img src="./assets/poster2.jpg" alt="Image 2" ></div>
-        <div class="slide"><img src="./assets/poster3.jpg   " alt="Image 3" ></div>
+        <div class="slide"><img src="./assets/poster3.jpg" alt="Image 3" ></div>
     </div>
 </div>
 
