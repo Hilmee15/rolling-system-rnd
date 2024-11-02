@@ -95,12 +95,12 @@ body {
   text-align: center;
 }
 #hero .hero-content .hero-title {
-  font-size: 44px;
+  font-size: 81px;
   font-weight: 700;
   color: white;
 }
 #hero .hero-content .hero-information {
-  font-size: 20px;
+  font-size: 37px;
   font-weight: 700;
   list-style: none;
   display: flex;
