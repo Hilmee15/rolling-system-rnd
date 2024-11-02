@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header id="header">
-        <a href="#" class="logo">Test</a>
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Korean 1</a></li>
-            <li><a href="#">Korean 2</a></li>
-        </ul>
-    </header>
-    <section>
-        <h2 id="text">Korean Side</h2>
-        <a href="#content" id="btn">Explore</a>
-    </section>
-    <div class="isi">
-        <h2 id="content">Lorem Ipsum</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup Profile</title>
+  </head>
+  <style>
+    *,
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .parr {
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100vh;
+    }
+    .intro {
+      background-image: url("Library/1.jpg");
+    }
+    .content {
+      background-image: url("Library/2.jpg");
+    }
+    .footer {
+      background-image: url("Library/3.jpg");
+    }
+    .covertext {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .title {
+      font-size: 4em;
+      letter-spacing: 15px;
+      font-family: fantasy;
+      color: whitesmoke;
+    }
+  </style>
+  <body>
+    <div class="parr intro">
+      <div class="covertext">
+        <div class="title">Lorem ipsum</div>
+      </div>
     </div>
-</body>
+    <div class="parr content"></div>
+    <div class="parr footer"></div>
+  </body>
 </html>
