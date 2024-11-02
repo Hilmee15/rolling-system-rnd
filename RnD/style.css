@@ -133,10 +133,14 @@ body {
   font-weight: 500;
 }
 #about .about-content .about-content-information .about-title {
-  font-size: 44px;
+  
+  font-size: 48px;
   font-weight: 700;
 }
-
+#about .about-content .about-content-information p {
+  font-size: 24px;
+  text-align: justify;
+}
 #trailer {
   flex-direction: column;
   justify-content: center;
