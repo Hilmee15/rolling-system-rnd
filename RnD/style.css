@@ -5,6 +5,9 @@
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
   width: 100%;
   background-color: #fb9902;
@@ -77,7 +80,7 @@ body {
   position: absolute;
   z-index: 10;
   bottom: 60px;
-  animation: 1.5s ease-out 0s alternate infinite running;
+  animation: repeat_fade 0.8s ease-out infinite alternate;
 }
 
 #hero .hero-content {
