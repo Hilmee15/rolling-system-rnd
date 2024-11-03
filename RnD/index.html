@@ -8,6 +8,8 @@
   </head>
   <body>
     <header id="header">
+      <a href="#hero" class="logo">K-Drama</a>
+      <button class="menu-btn">☰</button>
       <ul>
         <li><a href="#hero" class="active">Home</a></li>
         <li><a href="#about">Sinopsis</a></li>
@@ -35,30 +37,59 @@
         <div class="about-content-information">
           <h1 class="about-title">Sinopsis</h1>
           <p>
-            Set in one of the world’s most advanced tech sector, “Start Up” tells the tale of the razor-thin margins between ultimate success and abject failure. 
-            The story takes place in the fictional Sandbox Company, where the journey of four unique people is told.
-            After a revolving door of unfulfilling retail jobs, Seo Dal Mi is unsatisfied with the current trajectory of her life. 
-            Her soul longs for a grand adventure that sees her at the top and managing her own company. Although she does not have much to offer, she has big dreams, red hot ambition, and the soul of a pioneer.
-            A constant source of his family's pride as a child, Nam Do San as an adult is the founder of Sam San Tech, a fledgling start-up company that is looking to transition into bigger endeavors. 
-            But a vague dream and limited ambition see his company flounder. Unknown to him, the tailwinds of fate has begun to fill up SST's sails.
-            Han Ji Pyeong, a man who does not want to owe anyone anything, owes a large debt to one special person who helped him greatly in the past. 
-            His role in the start-up world sees him as Judge, Jury, and Executioner, as his pragmatic advice sees the futures of start-ups either rise into greatness or fall into obscurity.
-            Tired of doing all the work, but seeing the credit go to someone else, Won In Jae yearns to prove herself in a male-dominated industry, as a capable woman who can succeed without the advantages her privileged childhood has given her.
+            Set in one of the world’s most advanced tech sector, “Start Up”
+            tells the tale of the razor-thin margins between ultimate success
+            and abject failure. The story takes place in the fictional Sandbox
+            Company, where the journey of four unique people is told. After a
+            revolving door of unfulfilling retail jobs, Seo Dal Mi is
+            unsatisfied with the current trajectory of her life. Her soul longs
+            for a grand adventure that sees her at the top and managing her own
+            company. Although she does not have much to offer, she has big
+            dreams, red hot ambition, and the soul of a pioneer. A constant
+            source of his family's pride as a child, Nam Do San as an adult is
+            the founder of Sam San Tech, a fledgling start-up company that is
+            looking to transition into bigger endeavors. But a vague dream and
+            limited ambition see his company flounder. Unknown to him, the
+            tailwinds of fate has begun to fill up SST's sails. Han Ji Pyeong, a
+            man who does not want to owe anyone anything, owes a large debt to
+            one special person who helped him greatly in the past. His role in
+            the start-up world sees him as Judge, Jury, and Executioner, as his
+            pragmatic advice sees the futures of start-ups either rise into
+            greatness or fall into obscurity. Tired of doing all the work, but
+            seeing the credit go to someone else, Won In Jae yearns to prove
+            herself in a male-dominated industry, as a capable woman who can
+            succeed without the advantages her privileged childhood has given
+            her.
           </p>
         </div>
       </div>
     </div>
 
     <div class="box" id="trailer">
+      <div class="trailer-image-box">
+        <h1 class="trailer-image-title">Start Up Trailer</h1>
+        <p>
+          <a href="https://youtu.be/BemKyzbLDDc?si=OjzwuqHEUpnrzg4P">
+            <img src="./assets/drama-player.png" class="trailer-image" />
+          </a>
+        </p>
+      </div>
       <h1 class="trailer-quote">
         "The only thing that keeps you going is the confidence that you're doing
         what you love"
       </h1>
-      <div class="trailer-image-box">
-        <h1 class="trailer-image-title">Trailer</h1>
-        <img src="./assets/drama-player.png" class="trailer-image" />
-      </div>
     </div>
 
+    <footer>
+      <p>Made by Team 3 Aktivis Rolling System BNCC 36</p>
+    </footer>
+
+    <script>
+      document
+        .querySelector(".menu-btn")
+        .addEventListener("click", function () {
+          document.querySelector("#header ul").classList.toggle("active");
+        });
+    </script>
   </body>
 </html>
